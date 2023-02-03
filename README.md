@@ -1,5 +1,3 @@
-La intención de este repositorio es mostrar parte del proceso de creación de uun programa en python y arduino que
-enfoca de forma automática un telescopio refractor empleando opencv canny para determinar el nivel de enfoque de
-las imagenes.
+This project uses an arduino UNO to move the ocular in a galilean telescope to focus an image.
 
-Las librerias necesarias se encuentran en "requirements.txt"
+The folder "motor1/bidirectional" has the code necessary to make the motor move and comunicate with a python program that can run in any computer using the libraries listed in "requirements.txt".
